@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: green;
+  padding: 20px;
+}
+header div {
+  background-color: tomato;
+}
+header div img {
+  width: 100px;
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+/*display flex*/
+/*aca emepzaria el proyecto ojjjjjo*/
+
+header {
+  background-color: green;
+  padding: 20px;
+  display: flex;
+  /*cambio de eje pricipal*/
+  /*flex-direction: row;*/
+  /*manejo del eje principal o sea x en un contenedor flex*/
+  justify-content: space-between;
+  /*manejo del eje secundario, o sea el Y en un contenedor flex*/
+  align-items: center;
+}
+
+/*como centar el div,,,,,*/
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(224, 157, 12, 0.719);
+}
+nav ul li a {
+  color: blue;
+}
+
+main {
+  height: 300px;
+}
+/*Comienzo estilos Footer*/
+
+footer {
+  background-color: green;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+footer div nav ul {
+    list-style: none;
+  }
+
+
+footer div nav ul li {
+  padding: 10px;
+  margin: 5px;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
